@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter, FaMail, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -30,7 +30,7 @@ const Contact = () => {
               <div className="space-y-6">
                 <div className="flex items-center gap-4 group">
                   <div className="w-12 h-12 bg-blue-600/20 rounded-full flex items-center justify-center border border-blue-600/30 group-hover:bg-blue-600/30 transition-all duration-300">
-                    <FaMail className="w-5 h-5 text-blue-400" />
+                    <FaEnvelope className="w-5 h-5 text-blue-400" />
                   </div>
                   <div>
                     <p className="text-sm text-gray-400 mb-1">Email</p>
